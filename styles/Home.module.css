@@ -1,5 +1,9 @@
 .container {
   padding: 0 2rem;
+  /* new items */
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main {
@@ -8,8 +12,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .footer {
@@ -42,18 +46,26 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
-.title,
+/* .title,
 .description {
   text-align: center;
-}
+} */
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 500px;
+}
+
+.description a:hover,
+.description a:focus,
+.description a:active {
+  text-decoration: underline;
 }
 
 .code {
@@ -106,6 +118,42 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.projects {
+  margin-block: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-block-end: 4em; */
+}
+
+.projectdesc {
+  max-width: 500px;
+}
+
+.project p {
+  margin-block-start: 0;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.project a:hover,
+.project a:focus,
+.project a:active {
+  text-decoration: underline;
+}
+
+.subtext {
+  /* color: gray; */
 }
 
 @media (max-width: 600px) {
