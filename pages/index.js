@@ -11,6 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.header}>
+        <div className={styles.logo}>Chris Chung</div>
+        <div className={styles.navbar}>
+          <a className={styles.currentpage} href="#design">Design</a>
+          <a href="#illustration">Illustration</a>
+          <a href="#photography">Photography</a>
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+        </div>
+      </header>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           Hi, I'm Chris.
@@ -21,26 +32,26 @@ export default function Home() {
         </p>
 
         <div className={styles.projects}>
-          <div className={styles.project}>
+          <div className={styles.project}> 
             <div className={styles.projectdesc}>
               <p>Juniper Networks<br/><text className={styles.subtext}>2022</text></p>
               <h2>Mist AI Live View</h2>
               
-              <p>Designing a mask sizer to help provide custom-fit masks to underserved and marginalized communities.</p>
-              <p className={styles.subtext}><b>Role:</b> User Interface, User Experience, Brand Identity, Creative Direction, AI</p>
+              <p>Designing a solution for Juniper Network's Mist AI to set the rotation of access points automatically, saving time and increasing accuracy for location services administrators.</p>
+              <p className={styles.subtext}><b>Role:</b> UI/UX Design, User Research, Copywriting, Prototyping</p>
               
               <p><a href="">Read more {'->'}</a></p>
             </div>
-            <Image className={styles.img} src="/ux/m3/1-main.png" alt="M^3 Internship" width="400" height="300"/>
+            <Image className={styles.img} src="/ux/juniper/1-main.jpeg" alt="Juniper Networks Internship" width="400" height="300"/>
           </div>
 
           <div className={styles.project}>
             <div className={styles.projectdesc}>
-              <p>M^3<br/><text className={styles.subtext}>2022</text></p>
+              <p>M^3<br/><text className={styles.subtext}>2021</text></p>
               <h2>Virtual Try-On</h2>
               
               <p>Designing a mask sizer to help provide custom-fit masks to underserved and marginalized communities.</p>
-              <p className={styles.subtext}><b>Role:</b> User Interface, User Experience, Brand Identity, Creative Direction, AI</p>
+              <p className={styles.subtext}><b>Role:</b> UI/UX Design, Brand Identity, Creative Direction, AI</p>
               
               <p><a href="">Read more {'->'}</a></p>
             </div>
