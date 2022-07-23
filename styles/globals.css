@@ -21,3 +21,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* my additions */
+
+img {
+  object-fit: cover;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #8C8181;
+}
