@@ -1,0 +1,23 @@
+  .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-block-end: 4em; */
+  }
+  
+  .projectdesc {
+    max-width: 500px;
+  }
+  
+  .project p {
+    margin-block-start: 0;
+  }
+  
+  @media (max-width: 1020px) {
+    /* default max-width: 600px */
+    .project {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  

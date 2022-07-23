@@ -11,6 +11,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   color: #262626;
   /* background-color: #F2F0F0; */
+  overflow-y:scroll
 }
 
 a {
