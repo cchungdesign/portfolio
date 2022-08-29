@@ -21,7 +21,10 @@ export default function Project(props) {
     return (
           <div className={styles.project}> 
             <div className={styles.projectdesc}>
-              <p>{props.company}<br/><text className={props.subtext}>{props.year}</text></p>
+              <div className={styles.company}>
+                <div>{props.company}</div>
+                <div>{props.year}</div>
+              </div>
               <h2>{props.name}</h2>
               
               <p>{props.description}</p>
