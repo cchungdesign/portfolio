@@ -26,7 +26,7 @@ export default function About() {
               <h1 className={styles.title}>Virtual Try-On</h1>
               <p className={styles.p}>
                 Mask sizing varies across different face shapes, affecting
-                people whose face shapes do not fit "one-size-fits-all" masks.
+                people whose face shapes do not fit &quot;one-size-fits-all&quot; masks.
                 Our team developed an augmented reality (AR) camera solution
                 that addresses difficulties in facial sizing. The challenge was
                 creating an accessible experience accounting for different
@@ -46,7 +46,7 @@ export default function About() {
             <div className={styles.sidebar}>
               <div className={styles.item}>
                 <h3>Role</h3>
-                {/* <p className={styles.p}>As the UI/UX designer of this project, I set out to streamline the sizing app experience. I designed a solution that addresses the combination of healthcare requirements and current limitations of our augmented reality implementation (ideal lighting conditions, camera positioning), leading to a user-friendly mask measurement presentation and virtual try-on UI using M^3's proprietary algorithm.</p> */}
+                {/* <p className={styles.p}>As the UI/UX designer of this project, I set out to streamline the sizing app experience. I designed a solution that addresses the combination of healthcare requirements and current limitations of our augmented reality implementation (ideal lighting conditions, camera positioning), leading to a user-friendly mask measurement presentation and virtual try-on UI using M^3&apos;s proprietary algorithm.</p> */}
                 <ul>
                   <li>UI/UX Design</li>
                   <li>Brand Identity</li>
@@ -116,7 +116,7 @@ export default function About() {
             <p className={styles.p}>
               For this step, I chose a black overlay to contrast against the
               camera display, which would provide a reference point for the
-              user's own face in relation to the phone camera. We included text
+              user&apos;s own face in relation to the phone camera. We included text
               at the bottom to deliver live directions to the user, which would
               be cleared once the current step conditions were checked.
             </p>
@@ -152,14 +152,14 @@ export default function About() {
               that the user would benefit from a visual indicator that their
               face was in the frame. Collaborating with our Science lead, I
               mocked up a face overlay accounting for the specifications of the
-              scanning borders. We implemented the overlay to track the user's
+              scanning borders. We implemented the overlay to track the user&apos;s
               face live in virtual try-on. I worked through these iterations
               before landing on the final iteration (9).
             </p>
             <p className={styles.p}>
-              I chose the final overlay as it focused on the user's face with a
+              I chose the final overlay as it focused on the user&apos;s face with a
               transcluent black overlay. The final iteration also highlighted
-              just the user's chin, which was a required variable for our mask
+              just the user&apos;s chin, which was a required variable for our mask
               sizing calculation.
             </p>
           </div>
@@ -172,14 +172,14 @@ export default function About() {
           <div>
             <h3>Your Perfect Size</h3>
             <p className={styles.p}>
-              I added a brief confirmation screen saying "You're all set" after
+              I added a brief confirmation screen saying &quot;You&apos;re all set&quot; after
               completing the virtual try-on to show progress and reduce
               churning. With the actual sizing process out of the way, we had to
               figure out how to deliver this information to the user.
             </p>
             <p className={styles.p}>
               One challenge I kept returning to was how to present information
-              about the user's ideal size while acknowledging for variation in
+              about the user&apos;s ideal size while acknowledging for variation in
               results. We decided to present an additional confidence percentage
               and allow the user to assess their own results. I added color
               contrast to indicate the recommended choice for the user. To solve
@@ -198,7 +198,7 @@ export default function About() {
           <div>
             <h3>Next Steps</h3>
             <p className={styles.p}>
-              I felt proud of the work I've completed to streamline this process
+              I felt proud of the work I&apos;ve completed to streamline this process
               and help users have an easier experience finding their personal
               mask size. I was happy with the new paradigms and solutions I
               developed to solve some of our key issues: accessibility, reducing
@@ -206,7 +206,7 @@ export default function About() {
             </p>
             <p className={styles.p}>
               In hindsight, I believe adding some illustrations would help
-              reduce the partially "sterile" feeling of the interface. I also
+              reduce the partially sterile feeling of the interface. I also
               think there could be an alternative to the edge case issue that
               would be more streamlined. Moving forward, I learned the
               importance of componentizing assets (buttons, text containers,

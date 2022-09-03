@@ -17,13 +17,11 @@ export default function Home() {
 
       <main className={styles.container}>
         <div className={styles.description}>
-          <p>
-            <b>Chris Chung</b> is creating experiences for people. They are
-            pursuing Cognitive Science at{" "}
-            <a href="https://www.pomona.edu/">Pomona College</a>. Currently
-            designing at{" "}
-            <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
-          </p>
+          <b>Chris Chung</b> is creating experiences for people. They are pursuing
+          Cognitive Science at{" "}
+          <a href="https://www.pomona.edu/">Pomona College</a>. Currently
+          designing at{" "}
+          <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
         </div>
 
         <div className={styles.projects}>
