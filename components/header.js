@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-  <header className={styles.header}>
+  <div className={styles.container}>
+      <header className={styles.header}>
     <Link href="/" className={styles.logo}>Chris Chung</Link>
     <div className={styles.navbar}>
       {/* <Link className={styles.currentpage} href="/design">Design</Link> */}
@@ -14,7 +15,11 @@ export default function Header() {
         <a>About</a>
       </Link>
       {/* <Link href="/resume">Resume</Link> */}
+      <Link href="https://drive.google.com/file/d/17Gn0GANTZpYpMOqCOBjpXlWLzb-pL0Sq/view?usp=sharing">
+        <a>Resume</a>
+      </Link>
     </div>
   </header>
+  </div>
   )
 }
