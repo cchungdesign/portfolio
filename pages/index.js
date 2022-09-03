@@ -5,7 +5,7 @@ import Layout from "../components/layout.js";
 import Project from "../components/project.js";
 
 import m3 from "../public/ux/m3/2-mockup.png";
-import juniper from "../public/ux/juniper/1-main.jpeg";
+import juniper from "../public/ux/juniper/cover.png";
 
 export default function Home() {
   return (
@@ -29,11 +29,12 @@ export default function Home() {
           <Project
             company="Juniper Networks"
             year="2022"
-            name="Mist AI Live View"
+            name="Mist AI Auto Placement & Orientation"
             description="Designing an automated solution to save time and increase accuracy for location services administrators."
             role="UI/UX Design, User Research, Copywriting, Prototyping"
             img={juniper}
             imgalt="Juniper Networks Internship"
+            link="/ux-juniper"
           />
 
           <Project

@@ -46,8 +46,7 @@ export default function About() {
             <div className={styles.sidebar}>
               <div className={styles.item}>
                 <h3>Role</h3>
-                {/* <p className={styles.p}>As the UI/UX designer of this project, I set out to streamline the sizing app experience. I designed a solution that addresses the combination of healthcare requirements and current limitations of our augmented reality implementation (ideal lighting conditions, camera positioning), leading to a user-friendly mask measurement presentation and virtual try-on UI using M^3's proprietary algorithm.</p> */}
-                <ul>
+                <ul className={styles.ul}>
                   <li>UI/UX Design</li>
                   <li>Brand Identity</li>
                   <li>Creative Direction</li>
@@ -57,7 +56,7 @@ export default function About() {
 
               <div className={styles.item}>
                 <h3>Team</h3>
-                <ul>
+                <ul className={styles.ul}>
                   <li>Founder: Jesse Chang</li>
                   <li>Engineering Lead: John Boiles</li>
                   <li>Applied Science Lead: Kai Yeh</li>

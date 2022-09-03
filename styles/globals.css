@@ -41,19 +41,14 @@ img {
 a:hover,
 a:focus,
 a:active {
-  color: #a29e9e;
+  color: #9f9b96;
 }
 
 hr {
-  border: 1px solid #e3dfdf;
+  border: 1px solid #eae8e7;
 }
 
 :root {
   --padding: 0 2rem;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
