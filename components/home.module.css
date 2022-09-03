@@ -6,13 +6,13 @@ gray #BFB4B4
 black #262626
 */
 
-/* .main {
-  min-height: 100vh;
-  padding: 8rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-} */
+.container {
+  padding: var(--padding);
+  padding-top: 12rem;
+  max-width: 1020px;
+  margin: 0 auto;
+  width: 100%;
+}
 
 .title {
   margin: 0;
@@ -22,10 +22,14 @@ black #262626
 }
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
-  max-width: 500px;
+  font-size: 2rem;
+  max-width: 800px;
+  padding-bottom: 6rem;
+}
+
+.description b {
+  font-weight: 700;
 }
 
 .projects {
@@ -33,4 +37,13 @@ black #262626
   display: flex;
   flex-direction: column;
   gap: 4em;
+}
+
+.p {
+  max-width: 600px;
+}
+
+.about {
+  font-size: 1.2rem;
+  max-width: 600px;
 }

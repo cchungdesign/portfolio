@@ -1,3 +1,10 @@
+.container {
+  padding: var(--padding);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
 .header {
     display: flex;
     flex-direction: row;
