@@ -10,7 +10,7 @@ import liveViewAfter1 from "../public/ux/juniper/live-view-after1.png";
 import liveViewAfter2 from "../public/ux/juniper/live-view-after2.png";
 import anchorQuickEdit from "../public/ux/juniper/anchor-quickedit.png";
 import autoPlacement from "../public/ux/juniper/auto-placement.png";
-import autoOrientation from "../public/ux/juniper/Auto-orientation.png";
+import autoOrientation from "../public/ux/juniper/auto-orientation.png";
 
 export default function About() {
   return (
