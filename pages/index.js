@@ -5,6 +5,7 @@ import Layout from "../components/layout.js";
 import Project from "../components/project.js";
 
 import m3 from "../public/ux/m3/2-mockup.png";
+import juniper from "../public/ux/juniper/1-main.jpeg";
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
             name="Mist AI Live View"
             description="Designing an automated solution to save time and increase accuracy for location services administrators."
             role="UI/UX Design, User Research, Copywriting, Prototyping"
-            img="/../public/ux/juniper/1-main.jpeg"
+            img={juniper}
             imgalt="Juniper Networks Internship"
           />
 
