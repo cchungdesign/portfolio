@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../components/home.module.css";
 import Layout from "../components/layout.js";
 import Project from "../components/project.js";
+import Links from "../components/links.js";
 
 import m3 from "../public/ux/m3/2-mockup.png";
 import juniper from "../public/ux/juniper/cover.png";
@@ -18,16 +19,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
-        <div className={styles.description}>
-          <b>Chris Chung</b> is creating{" "}
-          <text className={styles.highlight}>experiences for people.</text>{" "}
-          Pursuing Cognitive Science at{" "}
-          <a href="https://www.pomona.edu/">Pomona College</a>. Currently
-          designing at{" "}
-          <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
+        <div className={styles.hero}>
+          <div className={styles.description}>
+            <b>Chris Chung</b> is creating{" "}
+            <text className={styles.highlight}>experiences for people.</text>{" "}
+            Pursuing Cognitive Science at{" "}
+            <a href="https://www.pomona.edu/">Pomona College</a>. Currently
+            designing at{" "}
+            <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
+          </div>
+          <Links />
         </div>
 
-        <div className={styles.projects}>
+        <div id="projects" className={styles.projects}>
           <Project
             company="Juniper Networks"
             year="2022"

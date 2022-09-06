@@ -34,3 +34,8 @@
     display: flex;
     justify-content: space-between;
   } */
+
+  .company, .link {
+    text-transform: uppercase;
+  }
+  

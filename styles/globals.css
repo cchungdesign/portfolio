@@ -16,7 +16,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 * {
@@ -41,11 +41,13 @@ img {
 a:hover,
 a:focus,
 a:active {
-  color: #9f9b96;
+  /* color: #9f9b96; */
+  text-decoration: underline;
 }
 
 hr {
-  border: 1px solid #eae8e7;
+  /* border: 1px solid #eae8e7; */
+  border: 1px solid #e5e5e5;
 }
 
 :root {

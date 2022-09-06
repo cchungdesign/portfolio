@@ -8,20 +8,18 @@ export default function Project(props) {
     <div className={styles.project}>
       <div className={styles.projecttext}>
         <div className={styles.company}>
-          <div>
             {props.company} · {props.year}
-          </div>
         </div>
         <h2>{props.name}</h2>
         <div className={styles.projectdesc}>
           <p>{props.description}</p>
-          <p className={styles.subtext}>
+          <p className={styles.role}>
             <b>Role:</b> {props.role}
           </p>
         </div>
 
-        <p>
-          <a href={props.link}>Read more {"->"}</a>
+        <p className={styles.link}>
+          <a href={props.link}>&#8594; Read more</a>
         </p>
       </div>
       <a href={props.link} className={styles.projectimg}>

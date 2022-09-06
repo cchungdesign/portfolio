@@ -10,7 +10,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-block: 2em;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 .currentpage {
@@ -23,6 +23,3 @@
   gap: 2em;
 }
 
-.header a {
-  text-decoration: none;
-}
