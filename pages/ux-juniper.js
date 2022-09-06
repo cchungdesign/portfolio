@@ -2,6 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../components/projectpage.module.css";
 import Layout from "../components/layout.js";
+import Section from "../components/section.js";
+import SideBySide from "../components/sidebyside.js";
+import ImgCaption from "../components/imgcaption.js";
 
 import cover from "../public/ux/juniper/cover.png";
 import userJourneyMap from "../public/ux/juniper/user-journey-map.png";
@@ -26,7 +29,7 @@ export default function About() {
               <h1 className={styles.title}>
                 Mist AI Auto Placement & Orientation
               </h1>
-              <p className={styles.p}>
+              <p>
                 Location services administrators spend significant overhead
                 manually setting multiple APs for a floor-plan, which can
                 multiply across thousands of stores in a franchise. The
@@ -35,13 +38,14 @@ export default function About() {
                 which results in frustration for both administrators and
                 installers.
               </p>
-              <p className={styles.p}>
-                We designed a new solution to set the rotation of access points
-                (APs) automatically, <b>saving time and increasing accuracy</b>{" "}
-                for small businesses to scaling franchises seeking user-centered
-                location services. We also{" "}
+              <p>
+                We designed a new solution to set the placement and rotation of
+                access points (APs) automatically,{" "}
+                <b>saving time and increasing accuracy</b> for small businesses
+                to scaling franchises seeking user-centered location services.
+                We also{" "}
                 <b>overhauled the existing location services environment</b>{" "}
-                based on user research.
+                based on usability research.
               </p>
             </div>
             <div className={styles.sidebar}>
@@ -58,8 +62,8 @@ export default function About() {
               <div className={styles.item}>
                 <h3>Team</h3>
                 <ul className={styles.ul}>
-                  <li>Mentor, Senior Staff UX Designer: Jordan Batch</li>
-                  <li>Manager, Software Engineering Director: Victor Tsai</li>
+                  <li>Senior UX Staff Designer: Jordan Batch</li>
+                  <li>Manager, SWE Director: Victor Tsai</li>
                   <li>Product Management: Ryan Adzima</li>
                   <li>Quality Assurance: Kevin Friday</li>
                 </ul>
@@ -150,17 +154,11 @@ export default function About() {
         <hr />
       </div>
 
-      <div className={styles.hero}>
-        <div className={styles.section}>
-          <Image src={userJourneyMap} />
-        </div>
-      </div>
-
       <div className={styles.container}>
         <div className={styles.section}>
           <div>
-            <h3>User Journey Map</h3>
-            <p className={styles.p}>
+            <h2>User Journey Map</h2>
+            <p className={styles.plarge}>
               In the user journey map writing process, I discovered that
               administrators spend significant overhead manually setting
               multiple APs for a floor-plan, which can multiply across thousands
@@ -170,7 +168,191 @@ export default function About() {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className={styles.hero}>
+        <div className={styles.section}>
+          <Image src={userJourneyMap} />
+        </div>
+      </div>
+
+      <div className={styles.container}>
         <hr />
+      </div>
+
+      <SideBySide
+        title="The Current Experience"
+        content={
+          <div>
+            <ol>
+              <li>Disorganized UI</li>
+              <p className={styles.p}>
+                Actions on the current Live View environment were cluttered with
+                little semantic relation to their placement. Important tasks
+                were nested under menus; features weren’t thought of
+                holistically.
+              </p>
+              <li>Confusing navigation</li>
+              <p className={styles.p}>
+                While researching users and auditing the “Live View” page, we
+                discovered that users were confused on the navigation and
+                structure of live view.
+              </p>
+              <li>Repetitive tasks</li>
+              <p className={styles.p}>
+                Administrators will need to go through multiple clicks and
+                manual checking with specifications to install a single AP. For
+                customers with thousands of stores and 10-15 APs per store,
+                accurately placing all the APs takes a <b>lot</b> of time.
+              </p>
+            </ol>
+          </div>
+        }
+        images={
+          <ImgCaption
+            img={liveViewInitial}
+            caption="The initial Live View environment prior to redesign"
+          />
+        }
+      />
+
+      <SideBySide
+        title="Spring Cleaning"
+        content={
+          <div>
+            <p className={styles.p}>
+              With the new settings page, users are able to view important
+              information about a floorplan from a glance. Additionally, this
+              new settings page serves as{" "}
+              <b>a single-step solution for the initial setup</b>.
+            </p>
+            <p className={styles.p}>
+              Before designing the experience for Auto Placement and
+              Orientation, I did some preliminary cleanup. Based on user
+              feedback from Quality Assurance, I addressed various pain points
+              by reorganizing actions to semantic groups. In this process, I
+              decided to create a <b>new Floorplan Settings page</b> to address
+              a glaring issue: there is no central interface to modify the
+              floorplan.
+            </p>
+          </div>
+        }
+        images={
+          <div>
+            <ImgCaption
+              img={liveViewAfter1}
+              caption="Aligning navigation closer to user's mental model"
+            />
+            <ImgCaption
+              img={liveViewAfter2}
+              caption="A new settings page optimizing for sitewide actions"
+            />
+          </div>
+        }
+      />
+
+      <SideBySide
+        title="Set Sail"
+        content={
+          <div>
+            <p className={styles.p}>
+              For administrators to use the new Auto Placement and Orientation
+              Features, the floorplan requires three APs to be designated as
+              anchors for triangulation on a virtual floorplan. I introduced a
+              visual concept of anchors (designated by a ship anchor as an
+              accessible mental prototype) so users can see any AP related to
+              anchor designation at a glance.
+            </p>
+            <p className={styles.p}>
+              Following a common use case for administrators, I added{" "}
+              <b>a new affordance for designating anchors</b> that is accessible
+              by either individual quick edits or a batch edit.
+            </p>
+          </div>
+        }
+        images={
+          <ImgCaption
+            img={anchorQuickEdit}
+            caption="UX flow for designating anchors"
+          />
+        }
+      />
+
+      <SideBySide
+        title="Auto Placement"
+        content={
+          <div>
+            <p className={styles.p}>
+              Administrators can set all their APs on a floorplan in two clicks,
+              two minutes (approximated). They can also view precise value
+              changes with an AP table prior to accepting placement. A preview
+              of the floorplan APs allows administrators to see the changes with
+              a visual guide.
+            </p>
+          </div>
+        }
+        images={
+          <ImgCaption
+            img={autoPlacement}
+            caption="UX flow for Auto Placement"
+          />
+        }
+      />
+
+      <SideBySide
+        title="Auto Orientation"
+        content={
+          <div>
+            <p className={styles.p}>
+              Because Mist AI processes Auto Orientation overnight, I designed a
+              distinct UI for interacting with the processing queue.
+              Administrators can easily add and remove floorplans queued for
+              Auto Orientation, receiving a notification the next day when the
+              process is done.
+            </p>
+            <p className={styles.p}>
+              In this process, I also developed{" "}
+              <b>a modular component system for modal windows</b>, adapting
+              existing design guidelines for novel use cases.
+            </p>
+          </div>
+        }
+        images={
+          <ImgCaption
+            img={autoOrientation}
+            caption="UX flow for Auto Orientation"
+          />
+        }
+      />
+
+      <div className={styles.container}>
+        <div className={styles.section}>
+          <div>
+            <h2>Outcome</h2>
+            <p className={styles.plarge}>
+              An overhauled environment with <b>optimized feature navigation</b>{" "}
+              and a new solution for{" "}
+              <b>
+                administrators to set the placement and rotation of access
+                points automatically.
+              </b>
+            </p>
+          </div>
+
+          <div>
+            <h3>Next Steps</h3>
+            <p className={styles.plarge}>
+              Through this project, I learned how to identify and prioritize
+              pain points based on user research, the importance of distinct UI
+              elements, and how to successfully overhaul legacy interfaces.
+            </p>
+            <p className={styles.plarge}>
+              Once user data is available upon feature testing rollout, we will
+              quantitatively determine the impact of this feature via user
+              metrics (total clicks and time spent on AP adjustment).
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   );

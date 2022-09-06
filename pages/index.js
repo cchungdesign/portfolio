@@ -18,8 +18,9 @@ export default function Home() {
 
       <main className={styles.container}>
         <div className={styles.description}>
-          <b>Chris Chung</b> is creating experiences for people. They are pursuing
-          Cognitive Science at{" "}
+          <b>Chris Chung</b> is creating{" "}
+          <text className={styles.highlight}>experiences for people.</text>{" "}
+          Pursuing Cognitive Science at{" "}
           <a href="https://www.pomona.edu/">Pomona College</a>. Currently
           designing at{" "}
           <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.

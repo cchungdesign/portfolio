@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../components/projectpage.module.css";
 import Layout from "../components/layout.js";
+import SideBySide from "../components/sidebyside";
+import ImgCaption from "../components/imgcaption";
 
 import imgMain from "../public/ux/m3/1-main.png";
 import imgMockup from "../public/ux/m3/2-mockup.png";
@@ -24,7 +26,7 @@ export default function About() {
           <div className={styles.overview}>
             <div className={styles.description}>
               <h1 className={styles.title}>Virtual Try-On</h1>
-              <p className={styles.p}>
+              <p>
                 Mask sizing varies across different face shapes, affecting
                 people whose face shapes do not fit "one-size-fits-all" masks.
                 Our team developed an augmented reality (AR) camera solution
@@ -33,7 +35,7 @@ export default function About() {
                 camera elements (glasses, beard, camera angle) while having an
                 easy-to-understand experience.
               </p>
-              <p className={styles.p}>
+              <p>
                 In response, we set out to{" "}
                 <b>streamline the user experience from scratch</b> (Onboarding
                 Process, Virtual Try-On, Size Results) and{" "}
@@ -71,20 +73,18 @@ export default function About() {
           </div>
         </div>
         <hr />
+      </div>
 
-        <div className={styles.section}>
+      <SideBySide
+        title="My Approach"
+        content={
           <div>
-            <h3>My Approach</h3>
             <p className={styles.p}>
               To tackle this challenge, I started working with easy but
               impactful changes, scaling up in complexity once I had the
               opportunity to redesign the entire camera interface in later beta
               stages.
             </p>
-          </div>
-
-          <div>
-            <h3>The Onboarding Experience</h3>
             <p className={styles.p}>
               I streamlined the color scheme and general visual design for a
               friendlier onboarding experience. One initial change I made that I
@@ -93,14 +93,19 @@ export default function About() {
               associations.
             </p>
           </div>
+        }
+        images={
+          <ImgCaption
+            img={imgOnboarding}
+            caption="UX flow for Auto Orientation"
+          />
+        }
+      />
 
-          <Image src={imgOnboarding} />
-        </div>
-        <hr />
-
-        <div className={styles.section}>
+      <SideBySide
+        title="The Virtual Try-On"
+        content={
           <div>
-            <h3>The Virtual Try-On</h3>
             <p className={styles.p}>
               In onboarding, I had to solve how to present information about the
               virtual try-on in a meaningful way. As a solution, I separated the
@@ -120,14 +125,16 @@ export default function About() {
               be cleared once the current step conditions were checked.
             </p>
           </div>
+        }
+        images={
+          <ImgCaption img={imgTryon} caption="UX flow for Auto Orientation" />
+        }
+      />
 
-          <Image src={imgTryon} />
-        </div>
-        <hr />
-
-        <div className={styles.section}>
+      <SideBySide
+        title="20/20 Vision"
+        content={
           <div>
-            <h3>20/20 Vision</h3>
             <p className={styles.p}>
               One edge case I worked on solving was the presence of glasses. For
               a better scanning experience, we needed the user to take off their
@@ -139,13 +146,14 @@ export default function About() {
               virtual try-on.
             </p>
           </div>
-          <Image src={imgVision} />
-        </div>
-        <hr />
+        }
+        images={<ImgCaption img={imgVision} caption="imgVision" />}
+      />
 
-        <div className={styles.section}>
+      <SideBySide
+        title="The Face Overlay"
+        content={
           <div>
-            <h3>The Face Overlay</h3>
             <p className={styles.p}>
               While working through the virtual try-on interface, we realized
               that the user would benefit from a visual indicator that their
@@ -162,14 +170,14 @@ export default function About() {
               sizing calculation.
             </p>
           </div>
+        }
+        images={<ImgCaption img={imgOverlay} caption="imgVision" />}
+      />
 
-          <Image src={imgOverlay} />
-        </div>
-        <hr />
-
-        <div className={styles.section}>
+      <SideBySide
+        title="Your Perfect Size"
+        content={
           <div>
-            <h3>Your Perfect Size</h3>
             <p className={styles.p}>
               I added a brief confirmation screen saying "You're all set" after
               completing the virtual try-on to show progress and reduce
@@ -188,22 +196,22 @@ export default function About() {
               directed to a purchasing screen.
             </p>
           </div>
+        }
+        images={<ImgCaption img={imgSizer} caption="imgVision" />}
+      />
 
-          <Image src={imgSizer} />
-        </div>
-        <hr />
-
+      <div className={styles.container}>
         <div className={styles.section}>
           <div>
-            <h3>Next Steps</h3>
-            <p className={styles.p}>
+            <h2>Next Steps</h2>
+            <p className={styles.plarge}>
               I felt proud of the work I've completed to streamline this process
               and help users have an easier experience finding their personal
               mask size. I was happy with the new paradigms and solutions I
               developed to solve some of our key issues: accessibility, reducing
               churning, and overall user experience.
             </p>
-            <p className={styles.p}>
+            <p className={styles.plarge}>
               In hindsight, I believe adding some illustrations would help
               reduce the partially "sterile" feeling of the interface. I also
               think there could be an alternative to the edge case issue that
@@ -212,18 +220,17 @@ export default function About() {
               headings) and will be using this knowledge to reduce production
               time for engineering.
             </p>
-            <p className={styles.p}>
+            <p className={styles.plarge}>
               Although we ultimately did not have a full release of this
               product, this project provided valuable information on how to
               approach augmented reality fitting for future products. I am
               grateful to have been able to contribute to this project and work
               towards an inclusive future.
             </p>
-            <p className={styles.p}>The app beta launched in May 2021.</p>
+            <p className={styles.plarge}>The app beta launched in May 2021.</p>
           </div>
         </div>
       </div>
-      <hr />
     </Layout>
   );
 }

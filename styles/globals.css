@@ -50,5 +50,9 @@ hr {
 
 :root {
   --padding: 0 2rem;
+  --font-size: 1.4rem;
 }
 
+/* ::selection {
+  background: #ffe0af;
+} */
