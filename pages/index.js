@@ -6,6 +6,7 @@ import Project from "../components/project.js";
 
 import m3 from "../public/ux/m3/2-mockup.png";
 import juniper from "../public/ux/juniper/cover.png";
+import harpie from "../public/ux/harpie/coverblue.png";
 
 export default function Home() {
   return (
@@ -34,8 +35,8 @@ export default function Home() {
             description="Designing an automated solution to save time and increase accuracy for location services administrators."
             role="UI/UX Design, User Research, Copywriting, Prototyping"
             img={juniper}
-            imgalt="Juniper Networks Internship"
-            link="/ux-juniper"
+            imgalt="Mist AI Auto Placement & Orientation"
+            link="/juniper"
           />
 
           <Project
@@ -45,8 +46,19 @@ export default function Home() {
             description="Designing a mask sizer to help provide custom-fit masks to underserved and marginalized communities."
             role="UI/UX Design, Brand Identity, Creative Direction, AI"
             img={m3}
-            imgalt="M^3 Internship"
-            link="/ux-m3"
+            imgalt="Virtual Try-On"
+            link="/m3"
+          />
+
+          <Project
+            company="Harpie"
+            year="2021"
+            name="Harpie Branding"
+            description="Redesigning the Harpie identity."
+            role="Brand Identity, Creative Direction, Graphic Design"
+            img={harpie}
+            imgalt="Harpie Branding"
+            link="/harpie"
           />
         </div>
       </main>

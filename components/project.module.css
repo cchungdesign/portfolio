@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 4rem;
   }
   
   .projecttext {
-    max-width: 500px;
+    width: 40rem;
   }
-  
+
   .projectdesc {
     padding: 2rem 0;
   }
@@ -19,8 +20,13 @@
   @media (max-width: 1020px) {
     /* default max-width: 600px */
     .project {
-      width: 100%;
       flex-direction: column;
+      margin: 0 auto;
+      max-width: 40rem;
+    }
+
+    .projecttext {
+      width: 100%;
     }
   }
 

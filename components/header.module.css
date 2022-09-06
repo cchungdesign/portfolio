@@ -6,23 +6,23 @@
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-block: 2em;
-    /* text-transform: uppercase; */
-  }
-  
-  .currentpage {
-    text-decoration: underline;
-  }
-  
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block: 2em;
+  /* text-transform: uppercase; */
+}
 
-  .header a {
-    text-decoration: none;
-  }
+.currentpage {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.header a {
+  text-decoration: none;
+}
