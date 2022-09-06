@@ -17,7 +17,7 @@
     margin-block-start: 0;
   }
   
-  @media (max-width: 1020px) {
+  @media (max-width: 1040px) {
     /* default max-width: 600px */
     .project {
       flex-direction: column;
@@ -38,4 +38,8 @@
   .company, .link {
     text-transform: uppercase;
   }
-  
+
+.projectimg {
+  max-width: 36rem;
+  max-width: 27rem;
+}

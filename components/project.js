@@ -8,7 +8,7 @@ export default function Project(props) {
     <div className={styles.project}>
       <div className={styles.projecttext}>
         <div className={styles.company}>
-            {props.company} · {props.year}
+          {props.company} · {props.year}
         </div>
         <h2>{props.name}</h2>
         <div className={styles.projectdesc}>
@@ -23,13 +23,7 @@ export default function Project(props) {
         </p>
       </div>
       <a href={props.link} className={styles.projectimg}>
-        <Image
-          className={styles.img}
-          src={props.img}
-          alt={props.imgalt}
-          width="600"
-          height="400"
-        />
+        {props.img}
       </a>
     </div>
   );

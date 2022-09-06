@@ -1,0 +1,25 @@
+.gallery {
+  columns: 3;
+  gap: 1rem;
+  /* display: flex;
+    flex-flow: column wrap; */
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        columns: 2;
+    }
+}
+
+@media (max-width: 540px) {
+    .gallery {
+        columns: 1;
+    }
+}

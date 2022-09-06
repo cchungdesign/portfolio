@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../components/home.module.css";
-import Layout from "../components/layout.js";
-import Project from "../components/project.js";
-import Links from "../components/links.js";
+import styles from "/components/home.module.css";
+import Layout from "/components/layout.js";
+import Project from "/components/project.js";
+import Links from "/components/links.js";
 
-import m3 from "../public/ux/m3/2-mockup.png";
-import juniper from "../public/ux/juniper/cover.png";
-import harpie from "../public/ux/harpie/coverblue.png";
+import mcubed from "/public/ux/mcubed/2-mockup.png";
+import juniper from "/public/ux/juniper/cover.png";
+import harpie from "/public/ux/harpie/coverblue.png";
 
 export default function Home() {
   return (
@@ -38,9 +38,9 @@ export default function Home() {
             name="Mist AI Auto Placement & Orientation"
             description="Designing an automated solution to save time and increase accuracy for location services administrators."
             role="UI/UX Design, User Research, Copywriting, Prototyping"
-            img={juniper}
+            img={<Image src={juniper} />}
             imgalt="Mist AI Auto Placement & Orientation"
-            link="/juniper"
+            link="/work/juniper"
           />
 
           <Project
@@ -49,9 +49,9 @@ export default function Home() {
             name="Virtual Try-On"
             description="Designing a mask sizer to help provide custom-fit masks to underserved and marginalized communities."
             role="UI/UX Design, Brand Identity, Creative Direction, AI"
-            img={m3}
+            img={<Image src={mcubed} />}
             imgalt="Virtual Try-On"
-            link="/m3"
+            link="/work/mcubed"
           />
 
           <Project
@@ -60,9 +60,9 @@ export default function Home() {
             name="Harpie Branding"
             description="Redesigning the Harpie identity."
             role="Brand Identity, Creative Direction, Graphic Design"
-            img={harpie}
+            img={<Image src={harpie} />}
             imgalt="Harpie Branding"
-            link="/harpie"
+            link="/work/harpie"
           />
         </div>
       </main>

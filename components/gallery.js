@@ -7,7 +7,7 @@ export default function Gallery(props) {
   return (
     <div className={styles.row}>
       <div className={styles.column}>
-        
+        {props.images}
       </div>
     </div>
   );

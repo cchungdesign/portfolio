@@ -25,17 +25,18 @@ black #262626
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .description {
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: 2rem;
   max-width: 700px;
+  font-family: 'Playfair Display', serif;
 }
 
 .description b {
-  font-weight: 700;
+  font-style: oblique;
 }
 
 .projects {
@@ -54,6 +55,6 @@ black #262626
   max-width: 40rem;
 }
 
-.highlight {
+/* .highlight {
   background: #ffedd8;
-}
+} */

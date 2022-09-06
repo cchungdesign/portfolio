@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
-import Layout from "../components/layout.js";
-import styles from "../components/home.module.css";
+import Layout from "/components/layout.js";
+import styles from "/components/home.module.css";
 
 export default function About() {
   return (
@@ -33,10 +33,17 @@ export default function About() {
           </p>
           <br />
           <br />
-          <a href="mailto: cchungdesign@gmail.com">&#8594; cchungdesign@gmail.com</a>
+          <a href="mailto: cchungdesign@gmail.com">
+            &#8594; cchungdesign@gmail.com
+          </a>
           <br />
-          <a href="https://www.linkedin.com/in/cchungdesign/">&#8594; LinkedIn</a>
+          <a href="https://www.linkedin.com/in/cchungdesign/">
+            &#8594; LinkedIn
+          </a>
         </div>
+        <br />
+        <br />
+        <p>P.S. I built this website using React and Next.js to share my creative projects {":)"}</p>
       </div>
     </Layout>
   );

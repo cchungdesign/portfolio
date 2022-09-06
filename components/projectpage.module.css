@@ -63,7 +63,7 @@
   max-width: 600px;
 } */
 
-@media (max-width: 1020px) {
+@media (max-width: 1040px) {
   .overview {
     flex-direction: column;
   }
