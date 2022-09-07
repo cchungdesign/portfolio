@@ -4,7 +4,7 @@ import Image from "next/image";
 import Layout from "/components/layout.js";
 import styles from "/components/home.module.css";
 
-import me from "/public/me.jpg";
+// import me from "/public/me.jpg";
 
 export default function About() {
   return (
