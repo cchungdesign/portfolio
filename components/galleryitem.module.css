@@ -2,7 +2,7 @@
     display: flex;
     gap: 4rem;
     align-content: space-between;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
 .text {
@@ -21,7 +21,7 @@
 .images {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 2rem;
     width: 60%;
 }
 
