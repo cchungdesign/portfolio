@@ -6,14 +6,14 @@ import Section from "/components/section.js";
 import SideBySide from "/components/sidebyside.js";
 import ImgCaption from "/components/imgcaption.js";
 
-import cover from "/public/ux/juniper/cover.png";
-import userJourneyMap from "/public/ux/juniper/user-journey-map.png";
-import liveViewInitial from "/public/ux/juniper/live-view-initial.png";
-import liveViewAfter1 from "/public/ux/juniper/live-view-after1.png";
-import liveViewAfter2 from "/public/ux/juniper/live-view-after2.png";
-import anchorQuickEdit from "/public/ux/juniper/anchor-quickedit.png";
-import autoPlacement from "/public/ux/juniper/auto-placement.png";
-import autoOrientation from "/public/ux/juniper/auto-orientation.png";
+import cover from "/public/work/juniper/cover.png";
+import userJourneyMap from "/public/work/juniper/user-journey-map.png";
+import liveViewInitial from "/public/work/juniper/live-view-initial.png";
+import liveViewAfter1 from "/public/work/juniper/live-view-after1.png";
+import liveViewAfter2 from "/public/work/juniper/live-view-after2.png";
+import anchorQuickEdit from "/public/work/juniper/anchor-quickedit.png";
+import autoPlacement from "/public/work/juniper/auto-placement.png";
+import autoOrientation from "/public/work/juniper/auto-orientation.png";
 
 export default function About() {
   return (

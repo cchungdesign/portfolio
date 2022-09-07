@@ -5,14 +5,14 @@ import Layout from "/components/layout.js";
 import SideBySide from "/components/sidebyside";
 import ImgCaption from "/components/imgcaption";
 
-import imgMain from "/public/ux/mcubed/1-main.png";
-import imgMockup from "/public/ux/mcubed/2-mockup.png";
-import imgOnboarding from "/public/ux/mcubed/3-onboarding.jpeg";
-import imgTryon from "/public/ux/mcubed/4-tryon.jpeg";
-import imgVision from "/public/ux/mcubed/5-vision.jpeg";
-import imgOverlay from "/public/ux/mcubed/6-overlay.jpeg";
-import imgOverlay2 from "/public/ux/mcubed/6-overlay2.jpeg";
-import imgSizer from "/public/ux/mcubed/7-sizer.jpeg";
+import imgMain from "/public/work/mcubed/1-main.png";
+import imgMockup from "/public/work/mcubed/2-mockup.png";
+import imgOnboarding from "/public/work/mcubed/3-onboarding.jpeg";
+import imgTryon from "/public/work/mcubed/4-tryon.jpeg";
+import imgVision from "/public/work/mcubed/5-vision.jpeg";
+import imgOverlay from "/public/work/mcubed/6-overlay.jpeg";
+import imgOverlay2 from "/public/work/mcubed/6-overlay2.jpeg";
+import imgSizer from "/public/work/mcubed/7-sizer.jpeg";
 
 export default function About() {
   return (

@@ -5,9 +5,9 @@ import Layout from "/components/layout.js";
 import Project from "/components/project.js";
 import Links from "/components/links.js";
 
-import mcubed from "/public/ux/mcubed/2-mockup.png";
-import juniper from "/public/ux/juniper/cover.png";
-import harpie from "/public/ux/harpie/coverblue.png";
+import mcubed from "/public/work/mcubed/2-mockup.png";
+import juniper from "/public/work/juniper/cover.png";
+import harpie from "/public/work/harpie/coverblue.png";
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
           <Links />
         </div>
 
-        <div id="projects" className={styles.projects}>
+        <div id="work" className={styles.projects}>
           <Project
             company="Juniper Networks"
             year="2022"
