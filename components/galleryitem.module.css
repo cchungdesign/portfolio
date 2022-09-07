@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 4rem;
+    align-content: space-between;
+    padding-bottom: 8rem;
+}
+
+.text {
+    max-width: 20rem;
+}
+
+.heading {
+    text-transform: uppercase;
+}
+
+.description {
+    /* font-size: 1.2rem; */
+    width: 100%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .images {
+        width: 100%;
+    }
+}

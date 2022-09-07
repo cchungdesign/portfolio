@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Layout from "/components/layout.js";
 import styles from "/components/gallery.module.css";
-import Gallery from "/components/gallery.js";
+import GalleryItem from "/components/galleryitem.js";
 
 import img1 from "/public/photography/2021-aspc/0ce9c6c8-5dd3-4ccd-8a81-b37bc37b54fc_rw_3840.jpeg";
 import img2 from "/public/photography/2021-aspc/8c54f710-9851-4a4b-a4ef-69662a7b2c33_rw_3840.jpeg";
