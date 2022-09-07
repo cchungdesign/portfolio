@@ -1,7 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Layout from "/components/layout.js";
 import styles from "/components/home.module.css";
+
+import me from "/public/me.jpg";
 
 export default function About() {
   return (
@@ -43,8 +46,14 @@ export default function About() {
         </div>
         <br />
         <br />
-        <p>P.S. I built this website using React and Next.js to share my creative projects {":)"}</p>
+        <p>
+          P.S. I built this website using React and Next.js to share my creative
+          projects {":)"}
+        </p>
       </div>
+      {/* <div className={styles.aboutimage}>
+        <Image src={me} />
+      </div> */}
     </Layout>
   );
 }

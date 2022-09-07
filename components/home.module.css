@@ -55,6 +55,14 @@ black #262626
   max-width: 40rem;
 }
 
+.aboutimage {
+  position: fixed;
+  z-index: -1;
+  max-width: 50rem;
+  left: 60%;
+  top: 10%;
+}
+
 /* .highlight {
   background: #ffedd8;
 } */
