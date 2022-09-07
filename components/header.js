@@ -8,13 +8,9 @@ export default function Header() {
       <header className={styles.header}>
     <Link href="/" className={styles.logo}>Chris Chung</Link>
     <div className={styles.navbar}>
-      {/* <Link className={styles.currentpage} href="/design">Design</Link> */}
-      {/* <Link href="/illustration">Illustration</Link>
-      <Link href="/photography">Photography</Link> */}
       <Link href="/about">
         <a>About</a>
       </Link>
-      {/* <Link href="/resume">Resume</Link> */}
       <Link href="https://drive.google.com/file/d/17Gn0GANTZpYpMOqCOBjpXlWLzb-pL0Sq/view?usp=sharing">
         <a>Resume</a>
       </Link>
