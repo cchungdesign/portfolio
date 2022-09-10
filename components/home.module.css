@@ -67,13 +67,17 @@ black #262626
   background: #ffedd8;
 } */
 
+.bgwrapper {
+  width: 100vw;
+}
+
 .bg {
   position: absolute;
   z-index: -1;
-  width: 36rem;
-  top: 4rem;
   left: 50%;
-  opacity: 100%;
+  right: 0;
+  top: 4rem;
+  bottom: 0;
   overflow: hidden;
 }
 
@@ -85,10 +89,13 @@ black #262626
 }
 
 @keyframes animate-fade {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 @media (max-width: 768px) {
   .container {
@@ -97,5 +104,7 @@ black #262626
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-  .animate { animation: none !important; }
+  .animate {
+    animation: none !important;
+  }
 }

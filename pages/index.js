@@ -32,8 +32,10 @@ export default function Home() {
           <Links />
         </div>
 
-        <div className={styles.bg}>
-          <Image className={styles.animate} src={bg} />
+        <div className={styles.bgwrapper}>
+          <div className={styles.bg}>
+            <Image src={bg} width="600px" height="600px" layout="fixed" />
+          </div>
         </div>
 
         <div id="work" className={styles.projects}>
