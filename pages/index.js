@@ -34,7 +34,7 @@ export default function Home() {
 
         <div className={styles.bgwrapper}>
           <div className={styles.bg}>
-            <Image src={bg} className={styles.animate} width="600px" height="600px" layout="fixed" />
+            <Image src={bg} className={styles.animate} width="560px" height="560px" layout="fixed" />
           </div>
         </div>
 
