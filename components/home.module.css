@@ -74,6 +74,7 @@ black #262626
   top: 4rem;
   left: 50%;
   opacity: 100%;
+  overflow: hidden;
 }
 
 .animate {
