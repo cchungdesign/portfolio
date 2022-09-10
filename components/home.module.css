@@ -32,7 +32,7 @@ black #262626
   line-height: 1.4;
   font-size: 2rem;
   max-width: 700px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .description b {
@@ -67,8 +67,34 @@ black #262626
   background: #ffedd8;
 } */
 
+.bg {
+  position: absolute;
+  z-index: -1;
+  width: 36rem;
+  top: 4rem;
+  left: 50%;
+  opacity: 100%;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 @media (max-width: 768px) {
   .container {
     padding-top: 2rem;
   }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .animate { animation: none !important; }
 }

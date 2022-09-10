@@ -8,6 +8,7 @@ import Links from "/components/links.js";
 import mcubed from "/public/work/mcubed/2-mockup.png";
 import juniper from "/public/work/juniper/cover.png";
 import harpie from "/public/work/harpie/coverblue.png";
+import bg from "/public/gradient.png";
 
 export default function Home() {
   return (
@@ -29,6 +30,10 @@ export default function Home() {
             <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
           </div>
           <Links />
+        </div>
+
+        <div className={styles.bg}>
+          <Image className={styles.animate} src={bg} />
         </div>
 
         <div id="work" className={styles.projects}>
