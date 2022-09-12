@@ -5,12 +5,10 @@ import Link from 'next/link';
 export default function Links() {
   return (
   <div className={styles.container}>
-    <Link href="/#work"><a>&rarr; Work</a></Link>
-    <Link href="/digital-media"><a>&#8594; Digital Media</a></Link>
-    <a href="https://cchung.myportfolio.com/photography" target="_blank">&#8594; Photography</a>
-    <a href="https://cchung.myportfolio.com/illustration" target="_blank">&#8594; Illustration</a>
-    {/* <Link href="/photography"><a>&#8594; Photography</a></Link>
-    <Link href="/illustration"><a>&#8594; Illustration</a></Link> */}
+    <span>&#8594; <Link href="/#work"><a>Work</a></Link></span>
+    <span>&#8594; <Link href="/digital-media"><a>Digital Media</a></Link></span>
+    <span>&#8594; <Link href="https://cchung.myportfolio.com/photography"><a>Photography</a></Link></span>
+    <span>&#8594; <Link href="https://cchung.myportfolio.com/illustration"><a>Illustration</a></Link></span>
   </div>
   )
 }
