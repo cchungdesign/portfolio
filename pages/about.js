@@ -36,13 +36,15 @@ export default function About() {
           </p>
           <br />
           <br />
-          <a href="mailto: cchungdesign@gmail.com">
-            &#8594; cchungdesign@gmail.com
-          </a>
+          <span>
+            &#8594;{" "}
+            <a href="mailto: cchungdesign@gmail.com"> cchungdesign@gmail.com</a>
+          </span>
           <br />
-          <a href="https://www.linkedin.com/in/cchungdesign/">
-            &#8594; LinkedIn
-          </a>
+          <span>
+            &#8594;{" "}
+            <a href="https://www.linkedin.com/in/cchungdesign/"> LinkedIn</a>
+          </span>
         </div>
         <br />
         <br />

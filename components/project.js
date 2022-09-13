@@ -19,7 +19,7 @@ export default function Project(props) {
         </div>
 
         <p className={styles.link}>
-          <a href={props.link}>&#8594; Read more</a>
+          <span>&#8594; <a href={props.link}>Read more</a></span>
         </p>
       </div>
       <a href={props.link} className={styles.projectimg}>

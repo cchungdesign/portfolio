@@ -25,16 +25,22 @@ export default function Home() {
             <b>Chris Chung</b> is creating{" "}
             <text className={styles.highlight}>experiences for people.</text>{" "}
             Pursuing Cognitive Science at{" "}
-            <a href="https://www.pomona.edu/">Pomona College</a>. Currently
-            designing at{" "}
-            <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>.
+            <a href="https://www.pomona.edu/">Pomona College</a>.
+            {/* Currently designing at{" "}
+            <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>. */}
           </div>
           <Links />
         </div>
 
         <div className={styles.bgwrapper}>
           <div className={styles.bg}>
-            <Image src={bg} className={styles.animate} width="560px" height="560px" layout="fixed" />
+            <Image
+              src={bg}
+              className={styles.animate}
+              width="560px"
+              height="560px"
+              layout="fixed"
+            />
           </div>
         </div>
 
