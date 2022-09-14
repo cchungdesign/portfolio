@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.hero}>
           <div className={styles.description}>
             <b>Chris Chung</b> is creating{" "}
-            <text className={styles.highlight}>experiences for people.</text>{" "}
+            <text className={styles.highlight}>art through experiences.</text>{" "}
             Pursuing Cognitive Science at{" "}
             <a href="https://www.pomona.edu/">Pomona College</a>.
             {/* Currently designing at{" "}
