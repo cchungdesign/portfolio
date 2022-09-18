@@ -97,7 +97,7 @@ export default function About() {
         images={
           <ImgCaption
             img={imgOnboarding}
-            caption="UX flow for Auto Orientation"
+            caption="Copywriting and design flow for user onboarding"
           />
         }
       />
@@ -127,7 +127,7 @@ export default function About() {
           </div>
         }
         images={
-          <ImgCaption img={imgTryon} caption="UX flow for Auto Orientation" />
+          <ImgCaption img={imgTryon} caption="Augmented Reality UX Flow for Try-On" />
         }
       />
 
@@ -147,7 +147,7 @@ export default function About() {
             </p>
           </div>
         }
-        images={<ImgCaption img={imgVision} caption="imgVision" />}
+        images={<ImgCaption img={imgVision} caption="Edge case for people with glasses" />}
       />
 
       <SideBySide
@@ -171,7 +171,7 @@ export default function About() {
             </p>
           </div>
         }
-        images={<ImgCaption img={imgOverlay} caption="imgVision" />}
+        images={<ImgCaption img={imgOverlay} caption="Prototyping a face overlay" />}
       />
 
       <SideBySide
@@ -197,7 +197,7 @@ export default function About() {
             </p>
           </div>
         }
-        images={<ImgCaption img={imgSizer} caption="imgVision" />}
+        images={<ImgCaption img={imgSizer} caption="An expandable and personalized confirmation" />}
       />
 
       <div className={styles.container}>
