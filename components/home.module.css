@@ -110,9 +110,6 @@ black #262626
   }
   .about_container {
     flex-direction: column;
-  }
-  .animation {
-    width: 100%;
     justify-content: center;
   }
 }
