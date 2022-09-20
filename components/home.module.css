@@ -107,6 +107,10 @@ black #262626
   .about_container {
     flex-direction: column;
   }
+  .canvas {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
