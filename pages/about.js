@@ -151,7 +151,7 @@ export default function About() {
             </p> */}
           </div>
           <div className={styles.canvas}>
-            <canvas className="zdog-canvas" width="200" height="240"></canvas>
+            <canvas className="zdog-canvas" width="400" height="480"></canvas>
           </div>
         </div>
       </div>
