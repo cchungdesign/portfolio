@@ -30,9 +30,9 @@ black #262626
 
 .description {
   /* line-height: 1.4; */
-  font-size: 3.4rem;
-  /* font-size: 2rem; */
-  /* max-width: 700px; */
+  /* font-size: 3.4rem; */
+  font-size: 2rem;
+  max-width: 700px;
   font-family: "Playfair Display", serif;
 }
 
@@ -63,10 +63,6 @@ black #262626
   left: 60%;
   top: 10%;
 }
-
-/* .highlight {
-  background: #ffedd8;
-} */
 
 .bgwrapper {
   width: 100vw;
@@ -110,7 +106,6 @@ black #262626
   }
   .about_container {
     flex-direction: column;
-    justify-content: center;
   }
 }
 
