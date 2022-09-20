@@ -150,7 +150,9 @@ export default function About() {
               creative projects {":)"}
             </p>
           </div>
-          <canvas className="zdog-canvas" width="200" height="240"></canvas>
+          <div className="styles.animation">
+            <canvas className="zdog-canvas" width="200" height="240"></canvas>
+          </div>
         </div>
       </div>
     </Layout>
