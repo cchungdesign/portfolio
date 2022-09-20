@@ -25,28 +25,28 @@ export default function About() {
     new Zdog.Shape({
       addTo: illo,
       stroke: 160,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: {y: -100},
     })
 
     new Zdog.Shape({
       addTo: illo,
       stroke: 120,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: { z: 50, y: -50 },
     })
 
     new Zdog.Shape({
       addTo: illo,
       stroke: 140,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: { x: 50, z: -50, y: -50 },
     })
 
     new Zdog.Shape({
       addTo: illo,
       stroke: 130,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: { x: -50, z: -50, y: -50 },
     })
 
@@ -54,14 +54,14 @@ export default function About() {
     new Zdog.Shape({
       addTo: illo,
       stroke: 20,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: { z: -20, y: 100 },
     })
 
     new Zdog.Shape({
       addTo: illo,
       stroke: 30,
-      color: 'goldenrod',
+      color: 'NavajoWhite',
       translate: { x: -50, z: -50, y: 50 },
     })
 
@@ -78,7 +78,7 @@ export default function About() {
       ],
       closed: false,
       stroke: 20,
-      color: 'saddlebrown',
+      color: 'Chocolate',
       translate: { y: 50 },
       rotate: { z:-90 },
     });
@@ -89,7 +89,7 @@ export default function About() {
       diameter: 160,
       stroke: 20,
       fill: true,
-      color: 'antiquewhite',
+      color: 'AntiqueWhite',
       translate: { y: 150 },
       rotate: {x: 1.570796},
     });
