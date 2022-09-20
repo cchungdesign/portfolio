@@ -143,12 +143,12 @@ export default function About() {
               &#8594;{" "}
               <a href="https://www.linkedin.com/in/cchungdesign/"> LinkedIn</a>
             </span>
-            <br />
+            {/* <br />
             <br />
             <p>
               P.S. I built this website using React and Next.js to share my
               creative projects {":)"}
-            </p>
+            </p> */}
           </div>
           <div className="styles.canvas">
             <canvas className="zdog-canvas" width="400" height="480"></canvas>
