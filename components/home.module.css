@@ -110,6 +110,7 @@ black #262626
   }
   .about_container {
     flex-direction: column;
+    justify-content: center;
   }
 }
 
