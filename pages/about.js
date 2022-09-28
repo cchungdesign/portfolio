@@ -9,98 +9,98 @@ import Zdog from "zdog";
 // import me from "/public/me.jpg";
 
 export default function About() {
-  useEffect(() => {
-    let isSpinning = true;
+  // useEffect(() => {
+  //   let isSpinning = true;
 
-    let illo = new Zdog.Illustration({
-      element: '.zdog-canvas',
-      dragRotate: true,
-      // stop spinning when drag starts
-      onDragStart: function() {
-        isSpinning = false;
-      },
-    });
+  //   let illo = new Zdog.Illustration({
+  //     element: '.zdog-canvas',
+  //     dragRotate: true,
+  //     // stop spinning when drag starts
+  //     onDragStart: function() {
+  //       isSpinning = false;
+  //     },
+  //   });
 
-    // tree
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 160,
-      color: 'NavajoWhite',
-      translate: {y: -100},
-    })
+  //   // tree
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 160,
+  //     color: 'NavajoWhite',
+  //     translate: {y: -100},
+  //   })
 
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 120,
-      color: 'NavajoWhite',
-      translate: { z: 50, y: -50 },
-    })
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 120,
+  //     color: 'NavajoWhite',
+  //     translate: { z: 50, y: -50 },
+  //   })
 
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 140,
-      color: 'NavajoWhite',
-      translate: { x: 50, z: -50, y: -50 },
-    })
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 140,
+  //     color: 'NavajoWhite',
+  //     translate: { x: 50, z: -50, y: -50 },
+  //   })
 
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 130,
-      color: 'NavajoWhite',
-      translate: { x: -50, z: -50, y: -50 },
-    })
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 130,
+  //     color: 'NavajoWhite',
+  //     translate: { x: -50, z: -50, y: -50 },
+  //   })
 
-    // leaves
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 20,
-      color: 'NavajoWhite',
-      translate: { z: -20, y: 100 },
-    })
+  //   // leaves
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 20,
+  //     color: 'NavajoWhite',
+  //     translate: { z: -20, y: 100 },
+  //   })
 
-    new Zdog.Shape({
-      addTo: illo,
-      stroke: 30,
-      color: 'NavajoWhite',
-      translate: { x: -50, z: -50, y: 50 },
-    })
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     stroke: 30,
+  //     color: 'NavajoWhite',
+  //     translate: { x: -50, z: -50, y: 50 },
+  //   })
 
-    // tree trunk
-    new Zdog.Shape({
-      addTo: illo,
-      path: [
-        { x: -60, y: -60 },   // start
-        { bezier: [
-          { x:  20, y: -60 }, // start control point
-          { x:  20, y:  60 }, // end control point
-          { x:  60, y:  60 }, // end point
-        ]},
-      ],
-      closed: false,
-      stroke: 20,
-      color: 'Chocolate',
-      translate: { y: 50 },
-      rotate: { z:-90 },
-    });
+  //   // tree trunk
+  //   new Zdog.Shape({
+  //     addTo: illo,
+  //     path: [
+  //       { x: -60, y: -60 },   // start
+  //       { bezier: [
+  //         { x:  20, y: -60 }, // start control point
+  //         { x:  20, y:  60 }, // end control point
+  //         { x:  60, y:  60 }, // end point
+  //       ]},
+  //     ],
+  //     closed: false,
+  //     stroke: 20,
+  //     color: 'Chocolate',
+  //     translate: { y: 50 },
+  //     rotate: { z:-90 },
+  //   });
 
-    // ground
-    new Zdog.Ellipse({
-      addTo: illo,
-      diameter: 160,
-      stroke: 20,
-      fill: true,
-      color: 'AntiqueWhite',
-      translate: { y: 150 },
-      rotate: {x: 1.570796},
-    });
+  //   // ground
+  //   new Zdog.Ellipse({
+  //     addTo: illo,
+  //     diameter: 160,
+  //     stroke: 20,
+  //     fill: true,
+  //     color: 'AntiqueWhite',
+  //     translate: { y: 150 },
+  //     rotate: {x: 1.570796},
+  //   });
     
-    function animate() {
-      illo.rotate.y += isSpinning ? 0.03 : 0;
-      illo.updateRenderGraph();
-      requestAnimationFrame( animate );
-    }
-    animate();
-  });
+  //   function animate() {
+  //     illo.rotate.y += isSpinning ? 0.03 : 0;
+  //     illo.updateRenderGraph();
+  //     requestAnimationFrame( animate );
+  //   }
+  //   animate();
+  // });
 
   return (
     <Layout>
@@ -150,9 +150,9 @@ export default function About() {
               creative projects {":)"}
             </p> */}
           </div>
-          <div className={styles.canvas}>
+          {/* <div className={styles.canvas}>
             <canvas className="zdog-canvas" width="400" height="480"></canvas>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>
