@@ -24,8 +24,11 @@ export default function Home() {
           <div className={styles.description}>
             <b>Chris Chung</b> is creating{" "}
             <text className={styles.highlight}>art through experiences.</text>{" "}
-            Pursuing Cognitive Science at{" "}
-            <a href="https://www.pomona.edu/">Pomona College</a>.
+            Pursuing{" "}
+            <a href="https://www.pomona.edu/academics/majors/cognitive-science">
+              Cognitive Science
+            </a>{" "}
+            at <a href="https://www.pomona.edu/">Pomona College</a>.
             {/* Currently designing at{" "}
             <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>. */}
           </div>
