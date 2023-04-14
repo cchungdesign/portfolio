@@ -72,12 +72,23 @@ black #262626
   width: 100vw;
 }
 
+/* for gradient:
 .bg {
   position: absolute;
   z-index: -1;
   left: 50%;
   right: 0;
   top: 2rem;
+  bottom: 0;
+  overflow: hidden;
+} */
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  left: 56%;
+  right: 0;
+  top: 8rem;
   bottom: 0;
   overflow: hidden;
 }

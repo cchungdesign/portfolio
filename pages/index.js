@@ -8,7 +8,7 @@ import Links from "/components/links.js";
 import mcubed from "/public/work/mcubed/2-mockup.png";
 import juniper from "/public/work/juniper/cover.png";
 import harpie from "/public/work/harpie/coverblue.png";
-import bg from "/public/gradient.png";
+import bg from "/public/line-bg.png";
 
 export default function Home() {
   return (
@@ -40,8 +40,10 @@ export default function Home() {
             <Image
               src={bg}
               className={styles.animate}
-              width="560px"
-              height="560px"
+              // width="560px"
+              // height="560px"
+              width="475px"
+              height="430px"
               layout="fixed"
             />
           </div>
