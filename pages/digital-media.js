@@ -36,7 +36,7 @@ const colors_mag = [
 export default function DigitalMedia() {
   return (
     <Layout>
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <GalleryItem
           title="Yearning Emotion"
           id="yearning-emotion"
@@ -44,7 +44,7 @@ export default function DigitalMedia() {
           description="An exploration of emotional affect and tension between forms in color."
           images={yearning_emotion}
         />
-      </div>
+      </div> */}
       <div className={styles.container}>
         <GalleryItem
           title="warmth Tea House"
