@@ -4,14 +4,6 @@
     justify-content: space-between;
     gap: 4rem;
   }
-  
-  .projecttext {
-    width: 40rem;
-  }
-
-  .projectdesc {
-    padding: 2rem 0;
-  }
 
   .project p {
     margin-block-start: 0;
@@ -22,11 +14,10 @@
     .project {
       flex-direction: column;
       margin: 0 auto;
-      max-width: 40rem;
     }
 
     .projecttext {
-      width: 100%;
+      max-width: 27rem;
     }
   }
 
@@ -40,6 +31,5 @@
   }
 
 .projectimg {
-  max-width: 36rem;
   max-width: 27rem;
 }
