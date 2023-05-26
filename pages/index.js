@@ -23,14 +23,17 @@ export default function Home() {
         <div className={styles.hero}>
           <div className={styles.description}>
             <b>Chris Chung</b> is creating{" "}
-            <text className={styles.highlight}>art through experiences.</text>{" "}
-            Pursuing{" "}
+            <text className={styles.highlight}>art through design.</text>{" "}
+            <br/><br/>
+
+            B.A.{" "}
             <a href="https://www.pomona.edu/academics/majors/cognitive-science">
               Cognitive Science
             </a>{" "}
             at <a href="https://www.pomona.edu/">Pomona College</a>.
-            {/* Currently designing at{" "}
-            <a href="https://www.juniper.net/us/en.html">Juniper Networks</a>. */}
+            <br/>
+            Currently UX at{" "}
+            <a href="https://www.juniper.net/us/en/products/mist-ai.html">Juniper Networks</a>.
           </div>
           <Links />
         </div>
