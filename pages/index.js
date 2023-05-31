@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.hero}>
           <div className={styles.description}>
             <b>Chris Chung</b> is creating{" "}
-            <text className={styles.highlight}>art through design.</text>{" "}
+            <text className={styles.highlight}>play through design.</text>{" "}
             <br/><br/>
 
             B.A.{" "}
