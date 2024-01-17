@@ -38,12 +38,6 @@ black #262626
   /* text-transform: uppercase; */
 }
 
-.description b {
-  /* font-style: oblique; */
-  /* font-weight: 400; */
-  /* text-transform: uppercase; */
-}
-
 .projects {
   padding: 8rem 0;
   display: flex;
