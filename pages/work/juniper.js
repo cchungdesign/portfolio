@@ -20,10 +20,11 @@ export default function About() {
     <Layout>
       <div className={styles.container}>
         <div className={styles.cover}>
+          <div className={styles.company}>Juniper Networks · 2022</div>
           <h1 className={styles.title}>Mist AI Auto Placement & Orientation</h1>
           <h2>
-            Designing an automated solution for Juniper Networks to save time
-            and increase accuracy for location services administrators.
+            Designing an automated solution to save time and increase accuracy
+            for location services administrators.
           </h2>
         </div>
 

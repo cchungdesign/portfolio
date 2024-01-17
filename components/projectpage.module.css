@@ -12,14 +12,20 @@
 
 .cover {
   padding-bottom: 6rem;
+  max-width: 600px;
 }
 
 .section {
   padding-bottom: 2rem;
 }
 
+.company {
+  text-transform: uppercase;
+}
+
 .title {
   font-weight: 400;
+  font-size: 3rem;
   padding-bottom: 2rem;
 }
 
@@ -64,6 +70,7 @@
 .sbsright {
   width: 60%;
 }
+
 
 
 .p {

@@ -21,14 +21,22 @@ export default function About() {
       {/* <div className={styles.hero}></div> */}
 
       <div className={styles.container}>
-        <Image src={cover} />
-        <Image src={description} />
-        <Image src={logowhite} />
-        <Image src={logomain} />
-        <Image src={logobw} />
-        <Image src={palette} />
-        <Image src={fonts} />
-        <Image src={examples} />
+        <div className={styles.cover}>
+          <div className={styles.company}>Harpie · 2021</div>
+          <h1 className={styles.title}>Harpie Branding</h1>
+          <h2>Redesigning the Harpie identity.</h2>
+        </div>
+
+        <div className={styles.section}>
+          <Image src={cover} />
+          <Image src={description} />
+          <Image src={logowhite} />
+          <Image src={logomain} />
+          <Image src={logobw} />
+          <Image src={palette} />
+          <Image src={fonts} />
+          <Image src={examples} />
+        </div>
       </div>
     </Layout>
   );

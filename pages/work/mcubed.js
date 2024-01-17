@@ -19,9 +19,10 @@ export default function About() {
     <Layout>
       <div className={styles.container}>
         <div className={styles.cover}>
+          <div className={styles.company}>M^3 · 2022</div>
           <h1 className={styles.title}>Virtual Try-On</h1>
           <h2>
-            Designing a mask sizer to help provide custom-fit masks to
+            Designing a mask sizer with to help provide custom-fit masks to
             underserved and marginalized communities.
           </h2>
         </div>
