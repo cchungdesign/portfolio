@@ -201,7 +201,7 @@ export default function About() {
                 Administrators will need to go through multiple clicks and
                 manual checking with specifications to install a single AP. For
                 customers with thousands of stores and 10-15 APs per store,
-                accurately placing all the APs takes a <b>lot</b> of time.
+                accurately placing all the APs takes a lot of time.
               </p>
             </ol>
           </div>

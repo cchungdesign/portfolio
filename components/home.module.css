@@ -82,7 +82,7 @@ black #262626
 .bg {
   position: absolute;
   z-index: -1;
-  left: 65%;
+  left: 60%;
   top: 12rem;
   right: 6rem;
   overflow: hidden;
