@@ -8,7 +8,7 @@ import Links from "/components/links.js";
 import mcubed from "/public/work/mcubed/2-mockup.png";
 import juniper from "/public/work/juniper/cover.png";
 import harpie from "/public/work/harpie/coverblue.png";
-import bg from "/public/line-bg.svg";
+import bg from "/public/flower-bg.png";
 
 export default function Home() {
   return (
@@ -46,8 +46,8 @@ export default function Home() {
             <Image
               src={bg}
               className={styles.animate}
-              width="950px"
-              height="860px"
+              width="1900px"
+              height="1720px"
             />
           </div>
         </div>
