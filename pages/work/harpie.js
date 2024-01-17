@@ -18,11 +18,10 @@ import examples from "/public/work/harpie/examples.png";
 export default function About() {
   return (
     <Layout>
-      <div className={styles.hero}>
-        <Image src={cover} />
-      </div>
+      {/* <div className={styles.hero}></div> */}
 
       <div className={styles.container}>
+        <Image src={cover} />
         <Image src={description} />
         <Image src={logowhite} />
         <Image src={logomain} />

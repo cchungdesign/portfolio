@@ -24,16 +24,19 @@ export default function Home() {
           <div className={styles.description}>
             <b>Chris Chung</b> is creating{" "}
             <text className={styles.highlight}>play through design.</text>{" "}
-            <br/><br/>
-
-            B.A.{" "}
-            <a href="https://www.pomona.edu/academics/majors/cognitive-science">
-              Cognitive Science
-            </a>{" "}
-            at <a href="https://www.pomona.edu/">Pomona College</a>.
-            <br/>
+            <br />
+            <br />
             Currently UX at{" "}
-            <a href="https://www.juniper.net/us/en/products/mist-ai.html">Juniper Networks</a>.
+            <a href="https://www.juniper.net/us/en/products/mist-ai.html">
+              Juniper Networks
+            </a>
+            .
+            <br />
+            Cognitive Science at{" "}
+            <a href="https://www.pomona.edu/academics/majors/cognitive-science">
+              Pomona College
+            </a>
+            .
           </div>
           <Links />
         </div>
@@ -43,11 +46,8 @@ export default function Home() {
             <Image
               src={bg}
               className={styles.animate}
-              // width="560px"
-              // height="560px"
-              width="475px"
-              height="430px"
-              layout="fixed"
+              width="950px"
+              height="860px"
             />
           </div>
         </div>

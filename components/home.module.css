@@ -64,12 +64,8 @@ black #262626
   position: fixed;
   z-index: -1;
   max-width: 50rem;
-  left: 60%;
-  top: 10%;
-}
-
-.bgwrapper {
-  width: 100vw;
+  /* left: 60%; */
+  /* top: 10%; */
 }
 
 /* for gradient:
@@ -86,10 +82,9 @@ black #262626
 .bg {
   position: absolute;
   z-index: -1;
-  left: 60%;
-  right: 0;
+  left: 65%;
   top: 12rem;
-  bottom: 0;
+  right: 6rem;
   overflow: hidden;
 }
 
