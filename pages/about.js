@@ -93,7 +93,7 @@ export default function About() {
   //     translate: { y: 150 },
   //     rotate: {x: 1.570796},
   //   });
-    
+
   //   function animate() {
   //     illo.rotate.y += isSpinning ? 0.03 : 0;
   //     illo.updateRenderGraph();
@@ -131,19 +131,23 @@ export default function About() {
               or your next big vision. Contact me at:
             </p>
             <br />
-            <span>
-              &#8594;{" "}
-              <a href="mailto: cchungdesign@gmail.com">
-                {" "}
-                cchungdesign@gmail.com
-              </a>
-            </span>
-            <br />
-            <span>
-              &#8594;{" "}
-              <a href="https://www.linkedin.com/in/cchungdesign/"> LinkedIn</a>
-            </span>
-            <br />
+            <div className={styles.list}>
+              <span>
+                &#8594;{" "}
+                <a href="mailto: cchungdesign@gmail.com">
+                  {" "}
+                  cchungdesign@gmail.com
+                </a>
+              </span>
+              <br />
+              <span>
+                &#8594;{" "}
+                <a href="https://www.linkedin.com/in/cchungdesign/">
+                  {" "}
+                  LinkedIn
+                </a>
+              </span>
+            </div>
             <br />
             <p>
               P.S. I built this website using React and Next.js to share my
