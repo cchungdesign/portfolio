@@ -85,7 +85,7 @@ black #262626
   left: 60%;
   top: 12rem;
   right: 6rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .animate {
