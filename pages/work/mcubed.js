@@ -72,9 +72,9 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
-        <div className={styles.padding}>
-          <Image src={imgMockup} />
+          <div className={styles.padding}>
+            <Image src={imgMockup} />
+          </div>
         </div>
 
         <div className={styles.section}>
