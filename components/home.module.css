@@ -80,6 +80,7 @@ black #262626
 .bg {
   position: absolute;
   z-index: -1;
+  width: 700px;
   left: 50%;
   top: 30%;
   /* overflow: hidden; */
@@ -107,6 +108,12 @@ black #262626
   }
 }
 
+@media (max-width: 1040px) {
+  .bg {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     padding-top: 2rem;
@@ -117,10 +124,6 @@ black #262626
   .canvas {
     display: flex;
     justify-content: center;
-  }
-
-  .bg {
-    display: none;
   }
 }
 
