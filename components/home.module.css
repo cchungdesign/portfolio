@@ -80,8 +80,8 @@ black #262626
 .bg {
   position: absolute;
   z-index: -1;
-  left: 55%;
-  top: 6rem;
+  left: 50%;
+  top: 30%;
   /* overflow: hidden; */
 }
 

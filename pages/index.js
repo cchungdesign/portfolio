@@ -8,7 +8,7 @@ import Links from "/components/links.js";
 import mcubed from "/public/work/mcubed/2-mockup.png";
 import juniper from "/public/work/juniper/cover.png";
 import harpie from "/public/work/harpie/coverblue.png";
-import bg from "/public/flower-bg-gradient.png";
+import bg from "/public/flower-bg.png";
 
 export default function Home() {
   return (
