@@ -5,6 +5,7 @@ import Layout from "/components/layout.js";
 import styles from "/components/home.module.css";
 import { useEffect } from "react";
 import Zdog from "zdog";
+import me from "/public/3d-boy.png";
 
 // import me from "/public/me.jpg";
 
@@ -153,6 +154,15 @@ export default function About() {
               P.S. I built this website using React and Next.js to share my
               creative projects {":)"}
             </p>
+          </div>
+          <div>
+            <Image
+              className={styles.me}
+              src={me}
+              width={225}
+              height={575}
+              alt="3d model of Chris"
+            />
           </div>
           {/* <div className={styles.canvas}>
             <canvas className="zdog-canvas" width="400" height="480"></canvas>

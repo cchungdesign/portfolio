@@ -55,7 +55,7 @@ black #262626
 
 .about {
   font-size: 1.2rem;
-  max-width: 40rem;
+  max-width: 35rem;
 }
 
 .aboutimage {
@@ -97,6 +97,10 @@ black #262626
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.me {
+  object-fit: contain;
 }
 
 @keyframes animate-fade {
