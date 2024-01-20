@@ -81,7 +81,7 @@ export default function About() {
             <Image src={cover} />
           </div>
 
-          <div className={styles.list}>
+          <div className={styles.brief}>
             <div>
               <h3>Deliverables</h3>
               <ul>
