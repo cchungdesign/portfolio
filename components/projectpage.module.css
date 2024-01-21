@@ -77,8 +77,6 @@
   width: 60%;
 }
 
-
-
 .p {
   font-size: 1.2rem;
 }
@@ -103,11 +101,10 @@
   .sbsleft {
     width: 100%;
   }
-  
+
   .sbsright {
     width: 100%;
   }
-  
 }
 
 .ul {
@@ -118,7 +115,7 @@
 
 .caption {
   text-align: center;
-  color: gray;
+  color: var(--color);
 }
 
 .imgcaption {

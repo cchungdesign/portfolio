@@ -22,8 +22,10 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.hero}>
           <div className={styles.description}>
-            <b>Chris Chung</b> is creating{" "}
-            <text className={styles.highlight}>play through design.</text>{" "}
+            <text className={styles.name}>
+              CHRIS CHUNG is creating{" "}
+              <text className={styles.highlight}>play through design.</text>
+            </text>
             <br />
             <br />
             Currently UX at{" "}
@@ -31,12 +33,12 @@ export default function Home() {
               Juniper Networks
             </a>
             .
-            <br />
+            {/* <br />
             Cognitive Science at{" "}
             <a href="https://www.pomona.edu/academics/majors/cognitive-science">
               Pomona College
             </a>
-            .
+            . */}
           </div>
           <Links />
         </div>

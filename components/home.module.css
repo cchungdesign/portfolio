@@ -95,6 +95,14 @@ black #262626
   object-fit: contain;
 }
 
+/* .name {
+  font-size: 5rem;
+} */
+
+/* .description {
+  max-width: 40rem;
+} */
+
 @keyframes animate-fade {
   0% {
     opacity: 0;
@@ -121,6 +129,9 @@ black #262626
     display: flex;
     justify-content: center;
   }
+  /* .name {
+    font-size: unset;
+  } */
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
