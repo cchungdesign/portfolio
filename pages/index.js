@@ -22,17 +22,17 @@ export default function Home() {
       <main className={styles.container}>
         <div className={styles.hero}>
           <div className={styles.description}>
-            <text className={styles.name}>
-              CHRIS CHUNG is creating{" "}
-              <text className={styles.highlight}>play through design.</text>
-            </text>
-            <br />
-            <br />
-            Currently UX at{" "}
-            <a href="https://www.juniper.net/us/en/products/mist-ai.html">
-              Juniper Networks
-            </a>
-            .
+            <h1 className={styles.name}>
+              Chris Chung is creating{" "}
+              <text className={styles.highlight}>play through design</text>.
+            </h1>
+            <h2>
+              Currently UX at{" "}
+              <a href="https://www.juniper.net/us/en/products/mist-ai.html">
+                Juniper Networks
+              </a>
+              .
+            </h2>
             {/* <br />
             Cognitive Science at{" "}
             <a href="https://www.pomona.edu/academics/majors/cognitive-science">
