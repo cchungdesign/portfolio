@@ -24,21 +24,14 @@ export default function Home() {
           <div className={styles.description}>
             <h1 className={styles.name}>
               Chris Chung is creating{" "}
-              <text className={styles.highlight}>play through design</text>.
+              <text className={styles.highlight}>play through design</text>
             </h1>
             <h2>
               Currently UX at{" "}
               <a href="https://www.juniper.net/us/en/products/mist-ai.html">
                 Juniper Networks
               </a>
-              .
             </h2>
-            {/* <br />
-            Cognitive Science at{" "}
-            <a href="https://www.pomona.edu/academics/majors/cognitive-science">
-              Pomona College
-            </a>
-            . */}
           </div>
           <Links />
         </div>
@@ -58,7 +51,7 @@ export default function Home() {
           <Project
             company="Juniper Networks"
             year="2022"
-            name="Mist AI Auto Placement & Orientation"
+            name="Mist AI Auto Placement"
             description="Designing an automated solution to save time and increase accuracy for location services administrators."
             role="UI/UX Design, User Research, Copywriting, Prototyping"
             img={<Image src={juniper} />}

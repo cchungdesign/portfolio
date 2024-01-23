@@ -10,7 +10,7 @@ export default function Project(props) {
         <div className={styles.company}>
           {props.company} · {props.year}
         </div>
-        <h2>{props.name}</h2>
+        <h2 className={styles.name}>{props.name}</h2>
         <div className={styles.projectdesc}>
           <p>{props.description}</p>
           <p className={styles.role}>

@@ -33,3 +33,7 @@
 .projectimg {
   max-width: 27rem;
 }
+
+.name {
+  text-transform: uppercase;
+}
