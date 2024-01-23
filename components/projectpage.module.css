@@ -125,3 +125,9 @@
   align-items: center;
   gap: 1rem;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 2rem;
+  }
+}
