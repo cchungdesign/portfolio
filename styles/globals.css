@@ -11,6 +11,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: 400;
   /* background-color: rgb(244, 244, 240); */
+  color: rgba(0, 0, 0, 0.75);
   /* overflow-y:scroll; */
   overflow: visible;
 }
@@ -59,7 +60,7 @@ hr {
   --padding: 0 2rem;
   --font-size: 1.4rem;
   --max-width: 1040px;
-  --color: rgb(151, 151, 151);
+  --color: rgba(0, 0, 0, 0.50);
 }
 
 /* @media (max-width: 768px) {
